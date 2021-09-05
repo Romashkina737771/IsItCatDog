@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  tensorflow-serving:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8502:8501"
+    volumes:
+      - /home/osa_/Desktop/app/pets/:/models/pets/1
