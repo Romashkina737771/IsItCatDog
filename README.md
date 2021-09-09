@@ -4,6 +4,7 @@
 
 Following folders and files are included in this zip file:
 - pets - TensorFlow SavedModel Directory
+- dog_vs_cat_classification_cnn.ipynb - model itself
 - static - Empty directory which will be used for storing images by the flask app 
 - templates - HTML templates are here
 - app.ru - Flask app
@@ -12,6 +13,7 @@ Following folders and files are included in this zip file:
 - Dockerfile - instructions for the app
 - docer-compose.yaml - launch the docker instance which will serve the TensorFlow SavedModel 
 - README.md -  this File 
+- datasets are here https://www.kaggle.com/c/dogs-vs-cats/data
 
 # Simple Image Search Engine
 
